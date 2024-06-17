@@ -1,0 +1,25 @@
+1)What is Git?
+  --> Version Control System
+  --> To maintain changes in the file we need to have versions
+  --> To track changes in files / folders
+  --> To collaborate with teams
+  --> It is distributed VCS
+  
+  Version Control Systems
+  1) Centralized VCS
+  2) Distributed VCS
+2)What is GitHub?
+   --> Website to upload repositories online
+   --> Provides the backup for our repositories
+   --> Provides visual interface to our repositories
+   --> It makes collaboration easier
+3)Relation between git and github
+---> Git is not related to GitHub
+4)A simple Workflow
+
+Commands
+ git --version --> To get git version
+ git init --> To make our project/folder git specific // initialize to track changes
+ git status --> to check any new files added or any changes on file
+ git add <file>  --> add file 
+ 
