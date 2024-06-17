@@ -22,4 +22,8 @@ Commands
  git init --> To make our project/folder git specific // initialize to track changes
  git status --> to check any new files added or any changes on file
  git add <file>  --> add file 
+ git commit -m "message for that commit" --> Commiting the files to local repository
+ //Setting logging credentials
+ git config --global user.email "gangadharbadagigit007@gmail.com"
+ git config --global user.name "gangadharbadagigit007"
  
