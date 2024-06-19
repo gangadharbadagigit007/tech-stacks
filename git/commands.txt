@@ -36,5 +36,32 @@ Commands
  Branching and Merging
  git branch <branch_name> --> To create a branch
  git checkout branch_name  --> To switch the branch 
+ git merge <branch_name> --> To merge branch with master 
+ git branch -d <branch_name> --> delete branch from local 
+ git push origin --delete  <branch_name> --> delete branch from remote 
  
+ Tags
+ --> Used to mark release points
+ --> To track commits based on points
  
+ steps
+   git checkout <branch_name>
+   git tag <tag_name> --> To create a tag 
+   git tag -l "v1.*" --> To display all tags with name v1.
+   git show <tag_name> --> to show tag information
+   git push origin <tag_name>  --> To push tags to remote 
+   git tag -d <tag_name>  --> To delete tag
+   git tag --delete <tag_name> --> To delete tag
+   git push origin -d <tag_name> --> To delete tag from remote
+   
+   
+   Merge vs Rebase
+   git merge
+    --> it is non -destructive operation
+	--> Existing branches are not changed in any way
+	--> Creates a new merge commit in the feature branch
+	
+   git rebase
+     --> moves the entire feature branch to begin on the tip of the master branch
+	 --> Rewrites the project history
+	 --> We get much cleaner and linear project history
